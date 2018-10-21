@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $('.modal').modal();
+    $('.dropdown-trigger').dropdown();
+ });
 var elem = document.querySelector('.sidenav');
 var instance = M.Sidenav.init(elem, {
     onOpenStart: function () {
